@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		227D6A9BE52E7FA2AE5A1BAF /* Pods_TAPersonInfoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAPersonInfoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		272A0FFD64FE27C824C4FB59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		272A0FFD64FE27C824C4FB59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TAPersonInfoKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAPersonInfoKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		7C38F79C814FAFBF8ACBB2D3 /* Pods-TAPersonInfoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAPersonInfoKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAPersonInfoKit_Example/Pods-TAPersonInfoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C45B60E14E0585B3491B497 /* Pods-TAPersonInfoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAPersonInfoKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAPersonInfoKit_Tests/Pods-TAPersonInfoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C24D301C1C36DEE140CFF208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C24D301C1C36DEE140CFF208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CCA898CE97010F6F32EFAB16 /* Pods-TAPersonInfoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAPersonInfoKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAPersonInfoKit_Tests/Pods-TAPersonInfoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E234191352B56E899F175800 /* TAPersonInfoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TAPersonInfoKit.podspec; path = ../TAPersonInfoKit.podspec; sourceTree = "<group>"; };
+		E234191352B56E899F175800 /* TAPersonInfoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TAPersonInfoKit.podspec; path = ../TAPersonInfoKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FFCC73BADFCF93B983754AA4 /* Pods-TAPersonInfoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAPersonInfoKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAPersonInfoKit_Example/Pods-TAPersonInfoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

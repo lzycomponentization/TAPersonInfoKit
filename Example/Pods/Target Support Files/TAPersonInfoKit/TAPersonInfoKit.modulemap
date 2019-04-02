@@ -1,0 +1,6 @@
+framework module TAPersonInfoKit {
+  umbrella header "TAPersonInfoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

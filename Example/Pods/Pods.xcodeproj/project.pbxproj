@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF645441AB3EDD3DABABEB0430B032A /* TAPersonInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A604EEA441EE89600C91B15D3A8A5F5 /* TAPersonInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358EC696CAB62A6DE4077FBBC8721F61 /* Pods-TAPersonInfoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AFABEE15C4C7BA22E4F8FA54C01748 /* Pods-TAPersonInfoKit_Tests-dummy.m */; };
+		3C1AE0D09737F279F21AD93162125F2A /* Target_WGPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F1F02EE55996E04AB2736A975E2125 /* Target_WGPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C72AF94D9A41DD57C5A1BABD07E2A3D /* WGPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E774494380DD3BD43036EDC58CE4FC /* WGPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B6E26ED4EA2ED6411D1CF2337D4A3A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B321BD38A4F9E580F169EB033C7F0B6 /* ReplaceMe.m */; };
+		65612DF46D0B6D306C84C51B024CB164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		7D3D26B847A002103FE239D5FD982304 /* Target_WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2135ABB07B13BCA7058E4D5082715BA /* Target_WGPersonInfoViewController.m */; };
+		82E13EB805FEC9BE345587FA51823451 /* Pods-TAPersonInfoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287804D4AC317769623D817FE4C56ABD /* Pods-TAPersonInfoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B254B40ADABD893E782376AC6831AFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		B3488590038B6A906CB6D3C1135BD4CE /* WGPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A62BE5A6BF392D75A0E628C60D3B2A /* WGPersonInfoViewController.m */; };
+		BB74992B0D6858188FBF5804513F91B8 /* Pods-TAPersonInfoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6383B65CDE7090338D9E2A62D2ECEA /* Pods-TAPersonInfoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3BD6C1989713FE78ED94A0BF7AF44DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		E881379F4D06FE586F7AB1BFC05DE124 /* TAPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865A9D8C6B9838C1FC8B0C851B112110 /* TAPersonInfoKit-dummy.m */; };
+		FB39151C88023E746DAD9DBB2A713374 /* Pods-TAPersonInfoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9908E640D45E9AFA8D7EC0772CB89E /* Pods-TAPersonInfoKit_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DE43998129F3498AA2D5EF7E530E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B73CDEBAFFC47898FF5DE1F8C790CD7;
+			remoteInfo = "Pods-TAPersonInfoKit_Example";
+		};
+		CDD2E51D94F84A0F0BF630ACC9C95D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AE4B5F88198870FA4AE4DFCD5836CE;
+			remoteInfo = TAPersonInfoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A02639ADB1EAB5B816EB39ED42B060 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		09E774494380DD3BD43036EDC58CE4FC /* WGPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		0BB44D16D2B683251B9F64AEDDBD3851 /* Pods_TAPersonInfoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TAPersonInfoKit_Example.framework; path = "Pods-TAPersonInfoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F90F403AA62DEA61FB08E0D8F5B8D6B /* Pods-TAPersonInfoKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAPersonInfoKit_Example-resources.sh"; sourceTree = "<group>"; };
+		1350186306F467F1FDA2B2FF03E5DDC4 /* Pods-TAPersonInfoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAPersonInfoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		177DB5C36A7DC518E6114A1DB328C683 /* TAPersonInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TAPersonInfoKit.framework; path = TAPersonInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CE3AEEA24C884C13EB36198F4C61B1 /* Pods-TAPersonInfoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAPersonInfoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A9908E640D45E9AFA8D7EC0772CB89E /* Pods-TAPersonInfoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAPersonInfoKit_Example-dummy.m"; sourceTree = "<group>"; };
+		24AFABEE15C4C7BA22E4F8FA54C01748 /* Pods-TAPersonInfoKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TAPersonInfoKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		287804D4AC317769623D817FE4C56ABD /* Pods-TAPersonInfoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TAPersonInfoKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		41F37025DCC248ED3EC0E5F2B8B7CA43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55215726ACA98BCE34696B3FF774F483 /* Pods-TAPersonInfoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TAPersonInfoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		591F1C13A7E73B66A6B824117A3488FB /* Pods-TAPersonInfoKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAPersonInfoKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		59DB42CA650A111D38CCA0385AFAB7F8 /* Pods-TAPersonInfoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAPersonInfoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A71DE1415E330C0FED631A1B44BC19D /* Pods-TAPersonInfoKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TAPersonInfoKit_Example.modulemap"; sourceTree = "<group>"; };
+		5D9373092764D36100F223E698F0FA22 /* Pods-TAPersonInfoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAPersonInfoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7896E8352CDCF1CB08F1AFC64BF34044 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865A9D8C6B9838C1FC8B0C851B112110 /* TAPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
+		89A021D3A80D74336257B951BC110808 /* TAPersonInfoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAPersonInfoKit.xcconfig; sourceTree = "<group>"; };
+		8B321BD38A4F9E580F169EB033C7F0B6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TAPersonInfoKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		90CD4DA69806603B5B543F4E07F41F12 /* Pods-TAPersonInfoKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TAPersonInfoKit_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A604EEA441EE89600C91B15D3A8A5F5 /* TAPersonInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAPersonInfoKit-umbrella.h"; sourceTree = "<group>"; };
+		9EEE1E6DC49BA35A9CE2A4E0B313D0F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06A9D82F1FE982C352792893B68B24C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A79578CB78393777C288A66C01E81F11 /* TAPersonInfoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TAPersonInfoKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B885246410B108B8EE7FE15330252907 /* Pods-TAPersonInfoKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TAPersonInfoKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		B95DC3D1A430840782303FD7A1C64BDD /* Pods-TAPersonInfoKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAPersonInfoKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDA0277C6BBC42FCF6AE3C2162912D7B /* TAPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
+		CE6383B65CDE7090338D9E2A62D2ECEA /* Pods-TAPersonInfoKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TAPersonInfoKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEE9CECBBD141E5545DB5C150EF62B8C /* Pods-TAPersonInfoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAPersonInfoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA69D9A887DFAAD7A5397561F426B297 /* TAPersonInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TAPersonInfoKit.modulemap; sourceTree = "<group>"; };
+		E12DF54C6D1C68ED0D35364AD71A9096 /* Pods-TAPersonInfoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TAPersonInfoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1F1F02EE55996E04AB2736A975E2125 /* Target_WGPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_WGPersonInfoViewController.h; sourceTree = "<group>"; };
+		E4A62BE5A6BF392D75A0E628C60D3B2A /* WGPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		F2135ABB07B13BCA7058E4D5082715BA /* Target_WGPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_WGPersonInfoViewController.m; sourceTree = "<group>"; };
+		F9B4F17B80F5C06F94C8A8367DB95B1F /* Pods-TAPersonInfoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TAPersonInfoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA4337EA0BADC9A10009F53C38326A82 /* Pods_TAPersonInfoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TAPersonInfoKit_Tests.framework; path = "Pods-TAPersonInfoKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E90B279B9D0B719012E4A3A4D1AB2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65612DF46D0B6D306C84C51B024CB164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE1F56D873C791EA661020481C28F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BD6C1989713FE78ED94A0BF7AF44DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA77AC202DE42AF14C71F0CF446827A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B254B40ADABD893E782376AC6831AFFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067BE315107141FEB2C23C5B74D2F40B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE889E7597DC3A453A13F7D88A16581 /* TAPersonInfoKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0C9F7389F32218D5AE5E570EA96AC75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB44D16D2B683251B9F64AEDDBD3851 /* Pods_TAPersonInfoKit_Example.framework */,
+				FA4337EA0BADC9A10009F53C38326A82 /* Pods_TAPersonInfoKit_Tests.framework */,
+				177DB5C36A7DC518E6114A1DB328C683 /* TAPersonInfoKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E849C8A78807872964F79CD3F4ACE0 /* Pods-TAPersonInfoKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE1E6DC49BA35A9CE2A4E0B313D0F5 /* Info.plist */,
+				5A71DE1415E330C0FED631A1B44BC19D /* Pods-TAPersonInfoKit_Example.modulemap */,
+				E12DF54C6D1C68ED0D35364AD71A9096 /* Pods-TAPersonInfoKit_Example-acknowledgements.markdown */,
+				55215726ACA98BCE34696B3FF774F483 /* Pods-TAPersonInfoKit_Example-acknowledgements.plist */,
+				1A9908E640D45E9AFA8D7EC0772CB89E /* Pods-TAPersonInfoKit_Example-dummy.m */,
+				5D9373092764D36100F223E698F0FA22 /* Pods-TAPersonInfoKit_Example-frameworks.sh */,
+				0F90F403AA62DEA61FB08E0D8F5B8D6B /* Pods-TAPersonInfoKit_Example-resources.sh */,
+				287804D4AC317769623D817FE4C56ABD /* Pods-TAPersonInfoKit_Example-umbrella.h */,
+				CEE9CECBBD141E5545DB5C150EF62B8C /* Pods-TAPersonInfoKit_Example.debug.xcconfig */,
+				59DB42CA650A111D38CCA0385AFAB7F8 /* Pods-TAPersonInfoKit_Example.release.xcconfig */,
+			);
+			name = "Pods-TAPersonInfoKit_Example";
+			path = "Target Support Files/Pods-TAPersonInfoKit_Example";
+			sourceTree = "<group>";
+		};
+		415839F43555C55FC4C711F0F63DF48C /* TAPersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E1F1F02EE55996E04AB2736A975E2125 /* Target_WGPersonInfoViewController.h */,
+				F2135ABB07B13BCA7058E4D5082715BA /* Target_WGPersonInfoViewController.m */,
+				09E774494380DD3BD43036EDC58CE4FC /* WGPersonInfoViewController.h */,
+				E4A62BE5A6BF392D75A0E628C60D3B2A /* WGPersonInfoViewController.m */,
+			);
+			name = TAPersonInfo;
+			path = TAPersonInfoKit/Classes/TAPersonInfo;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A464FA5BF965D75E10115D8E7886260 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A06A9D82F1FE982C352792893B68B24C /* LICENSE */,
+				07A02639ADB1EAB5B816EB39ED42B060 /* README.md */,
+				A79578CB78393777C288A66C01E81F11 /* TAPersonInfoKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5EE889E7597DC3A453A13F7D88A16581 /* TAPersonInfoKit */ = {
+			isa = PBXGroup;
+			children = (
+				8B321BD38A4F9E580F169EB033C7F0B6 /* ReplaceMe.m */,
+				4A464FA5BF965D75E10115D8E7886260 /* Pod */,
+				F25BB62B7B6171D55BB9DA2764F32509 /* Support Files */,
+				415839F43555C55FC4C711F0F63DF48C /* TAPersonInfo */,
+			);
+			name = TAPersonInfoKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7B4FC205FA4AF09FAF733675B954AD3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35E849C8A78807872964F79CD3F4ACE0 /* Pods-TAPersonInfoKit_Example */,
+				F4CB049179FEAE1E9F3A74C36B69313B /* Pods-TAPersonInfoKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				067BE315107141FEB2C23C5B74D2F40B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0C9F7389F32218D5AE5E570EA96AC75E /* Products */,
+				7B4FC205FA4AF09FAF733675B954AD3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25BB62B7B6171D55BB9DA2764F32509 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F37025DCC248ED3EC0E5F2B8B7CA43 /* Info.plist */,
+				DA69D9A887DFAAD7A5397561F426B297 /* TAPersonInfoKit.modulemap */,
+				89A021D3A80D74336257B951BC110808 /* TAPersonInfoKit.xcconfig */,
+				865A9D8C6B9838C1FC8B0C851B112110 /* TAPersonInfoKit-dummy.m */,
+				BDA0277C6BBC42FCF6AE3C2162912D7B /* TAPersonInfoKit-prefix.pch */,
+				9A604EEA441EE89600C91B15D3A8A5F5 /* TAPersonInfoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TAPersonInfoKit";
+			sourceTree = "<group>";
+		};
+		F4CB049179FEAE1E9F3A74C36B69313B /* Pods-TAPersonInfoKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7896E8352CDCF1CB08F1AFC64BF34044 /* Info.plist */,
+				90CD4DA69806603B5B543F4E07F41F12 /* Pods-TAPersonInfoKit_Tests.modulemap */,
+				B95DC3D1A430840782303FD7A1C64BDD /* Pods-TAPersonInfoKit_Tests-acknowledgements.markdown */,
+				1350186306F467F1FDA2B2FF03E5DDC4 /* Pods-TAPersonInfoKit_Tests-acknowledgements.plist */,
+				24AFABEE15C4C7BA22E4F8FA54C01748 /* Pods-TAPersonInfoKit_Tests-dummy.m */,
+				591F1C13A7E73B66A6B824117A3488FB /* Pods-TAPersonInfoKit_Tests-frameworks.sh */,
+				B885246410B108B8EE7FE15330252907 /* Pods-TAPersonInfoKit_Tests-resources.sh */,
+				CE6383B65CDE7090338D9E2A62D2ECEA /* Pods-TAPersonInfoKit_Tests-umbrella.h */,
+				19CE3AEEA24C884C13EB36198F4C61B1 /* Pods-TAPersonInfoKit_Tests.debug.xcconfig */,
+				F9B4F17B80F5C06F94C8A8367DB95B1F /* Pods-TAPersonInfoKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-TAPersonInfoKit_Tests";
+			path = "Target Support Files/Pods-TAPersonInfoKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BE71C51C54E9CDE0541F98F32DCA893 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB74992B0D6858188FBF5804513F91B8 /* Pods-TAPersonInfoKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B170C8046E548D0EBF1B03BB2113D1AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E13EB805FEC9BE345587FA51823451 /* Pods-TAPersonInfoKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C599D080C67128366A202C051E7442DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF645441AB3EDD3DABABEB0430B032A /* TAPersonInfoKit-umbrella.h in Headers */,
+				3C1AE0D09737F279F21AD93162125F2A /* Target_WGPersonInfoViewController.h in Headers */,
+				4C72AF94D9A41DD57C5A1BABD07E2A3D /* WGPersonInfoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B73CDEBAFFC47898FF5DE1F8C790CD7 /* Pods-TAPersonInfoKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2720214F174A2660468176DB237CEF3A /* Build configuration list for PBXNativeTarget "Pods-TAPersonInfoKit_Example" */;
+			buildPhases = (
+				B170C8046E548D0EBF1B03BB2113D1AF /* Headers */,
+				651EE0F54E33AE0BC0A94446EAF3A12F /* Sources */,
+				3AE1F56D873C791EA661020481C28F13 /* Frameworks */,
+				CCAA6ABFB0FA9FA95C2BC428DFF97188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D7A4A012442D1DB83F4F6AB2F48D53 /* PBXTargetDependency */,
+			);
+			name = "Pods-TAPersonInfoKit_Example";
+			productName = "Pods-TAPersonInfoKit_Example";
+			productReference = 0BB44D16D2B683251B9F64AEDDBD3851 /* Pods_TAPersonInfoKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71AE4B5F88198870FA4AE4DFCD5836CE /* TAPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC0CDA6EF7A0D853C4820242A0BF72 /* Build configuration list for PBXNativeTarget "TAPersonInfoKit" */;
+			buildPhases = (
+				C599D080C67128366A202C051E7442DD /* Headers */,
+				3D8D0F3E555BC742F53F9F70FB8B553E /* Sources */,
+				5BA77AC202DE42AF14C71F0CF446827A /* Frameworks */,
+				8AA04009C655D82480CA6DB5D90C661D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAPersonInfoKit;
+			productName = TAPersonInfoKit;
+			productReference = 177DB5C36A7DC518E6114A1DB328C683 /* TAPersonInfoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF744434DDDA6AD4CB0FD9331041905B /* Pods-TAPersonInfoKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D1358B13FFAAE6B49FDDF20B42200F /* Build configuration list for PBXNativeTarget "Pods-TAPersonInfoKit_Tests" */;
+			buildPhases = (
+				9BE71C51C54E9CDE0541F98F32DCA893 /* Headers */,
+				9A016E75A193751932D351ACE0E1BAC6 /* Sources */,
+				0E90B279B9D0B719012E4A3A4D1AB2FD /* Frameworks */,
+				FFA3F313BBE88FE37C3C5A266187220A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4BFAC64ACD890DD402E5C32600F2F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TAPersonInfoKit_Tests";
+			productName = "Pods-TAPersonInfoKit_Tests";
+			productReference = FA4337EA0BADC9A10009F53C38326A82 /* Pods_TAPersonInfoKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0C9F7389F32218D5AE5E570EA96AC75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B73CDEBAFFC47898FF5DE1F8C790CD7 /* Pods-TAPersonInfoKit_Example */,
+				AF744434DDDA6AD4CB0FD9331041905B /* Pods-TAPersonInfoKit_Tests */,
+				71AE4B5F88198870FA4AE4DFCD5836CE /* TAPersonInfoKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA04009C655D82480CA6DB5D90C661D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAA6ABFB0FA9FA95C2BC428DFF97188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA3F313BBE88FE37C3C5A266187220A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8D0F3E555BC742F53F9F70FB8B553E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B6E26ED4EA2ED6411D1CF2337D4A3A /* ReplaceMe.m in Sources */,
+				E881379F4D06FE586F7AB1BFC05DE124 /* TAPersonInfoKit-dummy.m in Sources */,
+				7D3D26B847A002103FE239D5FD982304 /* Target_WGPersonInfoViewController.m in Sources */,
+				B3488590038B6A906CB6D3C1135BD4CE /* WGPersonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651EE0F54E33AE0BC0A94446EAF3A12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB39151C88023E746DAD9DBB2A713374 /* Pods-TAPersonInfoKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A016E75A193751932D351ACE0E1BAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358EC696CAB62A6DE4077FBBC8721F61 /* Pods-TAPersonInfoKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D7A4A012442D1DB83F4F6AB2F48D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAPersonInfoKit;
+			target = 71AE4B5F88198870FA4AE4DFCD5836CE /* TAPersonInfoKit */;
+			targetProxy = CDD2E51D94F84A0F0BF630ACC9C95D42 /* PBXContainerItemProxy */;
+		};
+		9A4BFAC64ACD890DD402E5C32600F2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TAPersonInfoKit_Example";
+			target = 0B73CDEBAFFC47898FF5DE1F8C790CD7 /* Pods-TAPersonInfoKit_Example */;
+			targetProxy = 70DE43998129F3498AA2D5EF7E530E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FF62B367119298A340DFDE88652126C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A021D3A80D74336257B951BC110808 /* TAPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TAPersonInfoKit/TAPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TAPersonInfoKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TAPersonInfoKit/TAPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = TAPersonInfoKit;
+				PRODUCT_NAME = TAPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C56031A8C9A05AE1EB3C44F9B43DD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE9CECBBD141E5545DB5C150EF62B8C /* Pods-TAPersonInfoKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TAPersonInfoKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TAPersonInfoKit_Example/Pods-TAPersonInfoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95A019EA43D90A6E589A909C56FE7921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B4F17B80F5C06F94C8A8367DB95B1F /* Pods-TAPersonInfoKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TAPersonInfoKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TAPersonInfoKit_Tests/Pods-TAPersonInfoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD299D1FEF2803E6F7E66D59B85FBA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE3AEEA24C884C13EB36198F4C61B1 /* Pods-TAPersonInfoKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TAPersonInfoKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TAPersonInfoKit_Tests/Pods-TAPersonInfoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED13F73FC2F7017A3B6F29BFF7C37A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DB42CA650A111D38CCA0385AFAB7F8 /* Pods-TAPersonInfoKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TAPersonInfoKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TAPersonInfoKit_Example/Pods-TAPersonInfoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDED8863509EFDCC65F8BC481FB2961E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A021D3A80D74336257B951BC110808 /* TAPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TAPersonInfoKit/TAPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TAPersonInfoKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TAPersonInfoKit/TAPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = TAPersonInfoKit;
+				PRODUCT_NAME = TAPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2720214F174A2660468176DB237CEF3A /* Build configuration list for PBXNativeTarget "Pods-TAPersonInfoKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C56031A8C9A05AE1EB3C44F9B43DD83 /* Debug */,
+				ED13F73FC2F7017A3B6F29BFF7C37A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D1358B13FFAAE6B49FDDF20B42200F /* Build configuration list for PBXNativeTarget "Pods-TAPersonInfoKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD299D1FEF2803E6F7E66D59B85FBA99 /* Debug */,
+				95A019EA43D90A6E589A909C56FE7921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC0CDA6EF7A0D853C4820242A0BF72 /* Build configuration list for PBXNativeTarget "TAPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF62B367119298A340DFDE88652126C /* Debug */,
+				FDED8863509EFDCC65F8BC481FB2961E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

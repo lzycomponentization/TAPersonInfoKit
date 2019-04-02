@@ -1,0 +1,16 @@
+PODS:
+  - TAPersonInfoKit (0.1.0)
+
+DEPENDENCIES:
+  - TAPersonInfoKit (from `../`)
+
+EXTERNAL SOURCES:
+  TAPersonInfoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TAPersonInfoKit: 16ac431257047e4355558332d734c1a5b272b987
+
+PODFILE CHECKSUM: 701bbd3d8094a5dec6075810259e602f6a42482b
+
+COCOAPODS: 1.5.3
