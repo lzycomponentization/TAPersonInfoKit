@@ -1,10 +1,12 @@
+
+source 'https://github.com/lzycomponentization/LZYSpecs.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'TAPersonInfoKit_Example' do
   pod 'TAPersonInfoKit', :path => '../'
-
+  
   target 'TAPersonInfoKit_Tests' do
     inherit! :search_paths
 
