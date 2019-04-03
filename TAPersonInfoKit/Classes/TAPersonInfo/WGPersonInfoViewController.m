@@ -9,7 +9,7 @@
 #define WGWidth [UIScreen mainScreen].bounds.size.width
 
 #import "WGPersonInfoViewController.h"
-#import "CTMediator+TAPersonPreference.h"
+//#import "CTMediator+TAPersonPreference.h"
 
 @interface WGPersonInfoViewController ()
 
@@ -35,16 +35,16 @@
 }
 
 - (void)btnClick{
-    UIViewController *con = [[CTMediator sharedInstance] personPreferenceWithRemind:@"希望您能喜欢我" resultBlock:^(BOOL isLike) {
-        if (isLike) {
-            [_likeBtn setTitle:@"对方喜欢你" forState:UIControlStateNormal];
-            _likeBtn.backgroundColor = [UIColor cyanColor];
-        }else{
-            [_likeBtn setTitle:@"对方讨厌你" forState:UIControlStateNormal];
-            _likeBtn.backgroundColor = [UIColor redColor];
-        }
-    }];
-    [self.navigationController pushViewController:con animated:YES];
+//    UIViewController *con = [[CTMediator sharedInstance] personPreferenceWithRemind:@"希望您能喜欢我" resultBlock:^(BOOL isLike) {
+//        if (isLike) {
+//            [_likeBtn setTitle:@"对方喜欢你" forState:UIControlStateNormal];
+//            _likeBtn.backgroundColor = [UIColor cyanColor];
+//        }else{
+//            [_likeBtn setTitle:@"对方讨厌你" forState:UIControlStateNormal];
+//            _likeBtn.backgroundColor = [UIColor redColor];
+//        }
+//    }];
+//    [self.navigationController pushViewController:con animated:YES];
 }
 
 -(UILabel *)displayLab{
